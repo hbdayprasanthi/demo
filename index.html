@@ -9,8 +9,8 @@
 <body>
     <script>
         while (2==2){
-            if (window.availHeight > window.availWidth){
-                alert("test")
+            if (window.matchMedia("(orientation: portrait)").matches) {
+                alert("Test")
             }
         }   
     </script>
